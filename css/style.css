@@ -291,7 +291,7 @@ h2 {
   transition-duration: .5s;
 }
 
-/* JS will change this to display: block when it runs. */ 
+/* JS will change this to display: block when it runs. */
 .box-static {
   display: none;
   width: 100%;
@@ -317,6 +317,11 @@ h2 {
 
 .box-padding {
   padding: 10px;
+}
+
+/* JS will change this to display: block when it runs. */
+.box-rollover {
+  display: none;
 }
 
 .box-rollover p {
