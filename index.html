@@ -557,8 +557,11 @@ $(function() {
     });
 	
 	$container.masonry('on', 'layoutComplete', function() {
-      // In the initial CSS, .box-static has display: none so as to make them invisible until this JS runs.
-      $(".box-static").css({'display': 'block'});
+      // In the initial CSS, .box-static has display: none so as to make them invisible
+      // initially. Leave them invisible until a second after Masonry completes its layout.
+      setTimeout(function() {
+	      $(".box-static").css({'display': 'block'});
+      }, 1000);
     });
     
     // Layout again now that we have a layoutComplete function. 
