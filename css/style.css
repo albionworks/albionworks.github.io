@@ -174,11 +174,11 @@ h2 {
 
 .col1 { width: 270px; }
 .col2 { width: 270px; }
-.col3 { width: 550px; }
+.col3 { width: 450px; }
 
 .col1 img { max-width: 270px; }
 .col2 img { max-width: 270px; }
-.col3 img { max-width: 550px; }
+.col3 img { max-width: 450px; }
 
 .col1 img:nth-child(1) {
   position: absolute;
