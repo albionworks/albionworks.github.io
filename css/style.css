@@ -207,6 +207,16 @@ h2 {
   z-index: 5;
 }
 
+.colA, .colB, .colC {
+  float: left;
+  position: relative;
+  padding: 0 0 1em 0;
+  overflow: hidden;
+  width: 320px;
+  padding: 1%;
+  margin-bottom: 40px;
+}
+
 /**** Transitions ****/
 
 .transitions-enabled.masonry,
@@ -281,7 +291,7 @@ h2 {
   transition-duration: .5s;
 }
 
-/* JS will change this to display: block when it runs. */ 
+/* JS will change this to display: block when it runs. */
 .box-static {
   display: none;
   width: 100%;
@@ -307,6 +317,11 @@ h2 {
 
 .box-padding {
   padding: 10px;
+}
+
+/* JS will change this to display: block when it runs. */
+.box-rollover {
+  display: none;
 }
 
 .box-rollover p {
